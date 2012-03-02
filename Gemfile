@@ -23,10 +23,12 @@ gem 'sqlite3'
 # gem 'capistrano'
 
 # To use debugger
-# gem 'ruby-debug19', :require => 'ruby-debug'
+#gem 'ruby-debug19', :require => 'ruby-debug'
 
 group :test, :development do
   gem "rspec-rails", "~> 2.8.1"
   gem "factory_girl_rails", "~> 1.7.0"
+  gem "watchr", "~> 0.7"
+  gem "spork", "~> 1.0.0rc2"
 end
 
